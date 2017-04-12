@@ -1,0 +1,129 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+
+h1 {
+	text-align: center;
+	font-size:2.1em;
+	margin-top: 40px;
+}
+
+.chicken{
+	background-color: #c88384;
+	float:right;
+	position: relative;
+	top: 4px;
+	right: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	padding-left:10px;
+	padding-right:10px;
+	color: black;
+	font-weight:600;
+	text-align: center;
+}
+
+.beef{
+	background-color: #b23135;
+	float:right;
+	position: relative;
+	top: 4px;
+	right: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	padding-left:10px;
+	padding-right:10px;
+	color: white;
+	font-weight:600;
+	text-align: center;
+}
+
+.sushi{
+	background-color: #dec886;
+	float:right;
+	position: relative;
+	top: 4px;
+	right: 14px;
+	margin-top: 0px;
+	margin-right: 0px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+	border-right:1px solid black;
+	border-top:1px solid black;
+	padding-left:10px;
+	padding-right:10px;
+	color: black;
+	font-weight:600;
+	text-align: center;
+}
+
+p{
+	background-color: #969696;
+	border: 4px solid black;
+	padding-top: 35px;
+	padding-bottom: 0px;
+	padding-left: :5px;
+	padding-right:5px;
+	margin: 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    padding: 0px;
+    margin: 10px;
+  }
+ 
+  .col-lg-3 {
+    width: 31%;
+  }
+  
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  .col-md-6 {
+    width: 47%;
+  }
+  
+  .col-md-12 {
+    width: 96%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    float: left;
+    padding: 0px;
+    margin: 10px;
+  }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
